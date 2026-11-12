@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Muayene ve test; görseller temsilîdir.",
-    "en": "Examination and tests; images are representative.",
-    "ar": "فحص واختبارات؛ الصور تمثيلية."
+    "tr": "Aile hekimliği muayenesi, çocuk sağlığı ve laboratuvar yönlendirmesi sunan özel poliklinik; görseller temsilîdir.",
+    "en": "A private clinic offering family-medicine check-ups, child health and lab referrals; images are representative.",
+    "ar": "عيادة خاصة تقدّم فحوصات طب الأسرة وصحة الطفل والإحالة إلى المختبر؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "aile, doktor, poliklinik",
-    "en": "family, doctor, clinic",
-    "ar": "عائلة، طبيب، عيادة"
+    "tr": "aile hekimi, poliklinik, çocuk sağlığı, laboratuvar",
+    "en": "family doctor, clinic, child health, laboratory",
+    "ar": "طبيب أسرة، عيادة، صحة الطفل، مختبر"
   },
   "category": "Kurumsal",
   "name": "Aile Poliklinik",
