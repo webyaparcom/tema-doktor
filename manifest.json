@@ -1,7 +1,7 @@
 {
   "name": "Aile Poliklinik",
   "short_name": "Aile Polikli",
-  "description": "Muayene ve test; görseller temsilîdir.",
+  "description": "Aile hekimliği muayenesi, çocuk sağlığı ve laboratuvar yönlendirmesi sunan özel poliklinik; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

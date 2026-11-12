@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Randevudan sonuç takibine.",
-        "en": "From appointment to result tracking.",
-        "ar": "من الموعد إلى تتبع النتيجة."
+        "tr": "Randevudan kontrole, aynı çatı altında.",
+        "en": "From appointment to follow-up, under one roof.",
+        "ar": "من الموعد إلى المتابعة، تحت سقف واحد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Muayene ve test; görseller temsilîdir.",
-        "en": "Examination and tests; images are representative.",
-        "ar": "فحص واختبارات؛ الصور تمثيلية."
+        "tr": "Aile hekimliği ve çocuk sağlığı; görseller temsilîdir.",
+        "en": "Family medicine and child health; images are representative.",
+        "ar": "طب الأسرة وصحة الطفل؛ الصور تمثيلية."
       }
     },
     {

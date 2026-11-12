@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجز موعدًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,10 +1533,10 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "klinik-hero-resepsiyon.webp",
+        "img": "klinik-klinik-oda.webp",
         "video": "",
         "poster": "",
-        "alt": "Aile Poliklinik",
+        "alt": "Gün ışıklı muayene odası",
         "overlay": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 28%, #0b1220)",
         "overlayText": "#ffffff",
         "accent": "var(--mx-site-primary, #2563eb)",
@@ -1538,25 +1549,25 @@
           "ar": "عيادة خاصة"
         },
         "title": {
-          "tr": "Ailenin, elinin altı",
-          "en": "Your family, close by",
-          "ar": "عائلتك قريبة منك"
+          "tr": "Ailenin sağlığı, elinin altında",
+          "en": "Your family's health, close by",
+          "ar": "صحة عائلتك قريبة منك"
         },
         "metin": {
-          "tr": "Aile Poliklinik, muayene ve test sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Aile poliklinik offers examination and tests. Images are representative and text is fictional.",
-          "ar": "يقدم عيادة العائلة فحص واختبارات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Aile Poliklinik; aile hekimliği muayenesi, çocuk sağlığı, kronik hastalık takibi ve laboratuvar yönlendirmesi sunar. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Aile Poliklinik offers family-medicine check-ups, child health, chronic-condition follow-up and lab referrals. Images are representative and text is fictional.",
+          "ar": "تقدّم عيادة Aile Poliklinik فحوصات طب الأسرة وصحة الطفل ومتابعة الأمراض المزمنة والإحالة إلى المختبر. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Poliklinik",
-          "en": "Clinic",
-          "ar": "العيادة"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Randevu iste",
-          "en": "Book",
-          "ar": "احجز"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجز موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1603,7 +1614,7 @@
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 10,
+          "deger": 6,
           "sonek": "",
-          "ikon": "monitoring",
+          "ikon": "medical_services",
           "etiket": {
-            "tr": "Uzman branşı",
-            "en": "Specialist branch",
-            "ar": "فرع متخصص"
+            "tr": "Poliklinik branşı",
+            "en": "Clinic specialties",
+            "ar": "تخصصات العيادة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 40,
-          "sonek": " dk",
+          "deger": 20,
+          "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Tanı süresi",
-            "en": "Diagnosis time",
-            "ar": "زمن التشخيص"
+            "tr": "Dakikalık randevu aralığı",
+            "en": "Minute appointment slots",
+            "ar": "دقيقة لكل موعد"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,28 +1654,28 @@
           }
         },
         {
-          "deger": 96,
-          "sonek": "%",
-          "ikon": "verified",
-          "etiket": {
-            "tr": "Numune doğruluğu",
-            "en": "Sample accuracy",
-            "ar": "دقة العينة"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 7,
+          "deger": 5,
           "sonek": "",
-          "ikon": "groups",
+          "ikon": "calendar_month",
           "etiket": {
-            "tr": "Saha personeli",
-            "en": "Field staff",
-            "ar": "طاقم الميدان"
+            "tr": "Haftalık çalışma günü",
+            "en": "Working days a week",
+            "ar": "أيام العمل أسبوعيًا"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 9,
+          "sonek": "",
+          "ikon": "schedule",
+          "etiket": {
+            "tr": "Günlük açık saat",
+            "en": "Open hours a day",
+            "ar": "ساعات العمل يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Sağlık",
-          "en": "The health",
-          "ar": "الصحة"
+          "tr": "Poliklinik",
+          "en": "The clinic",
+          "ar": "العيادة"
         },
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
-          "tr": "Randevudan sonuç takibine.",
-          "en": "From appointment to result tracking.",
-          "ar": "من الموعد إلى تتبع النتيجة."
+          "tr": "Randevudan kontrole, aynı çatı altında.",
+          "en": "From appointment to follow-up, under one roof.",
+          "ar": "من الموعد إلى المتابعة، تحت سقف واحد."
         }
       },
       "data": [
         {
-          "icon": "monitoring",
+          "icon": "medical_services",
           "name": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Aile hekimi muayenesi",
+            "en": "Family doctor check-up",
+            "ar": "فحص طبيب الأسرة"
           },
           "description": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
+            "tr": "Şikâyetinizin dinlenmesi, muayene ve gerekirse yönlendirme.",
+            "en": "Listening to your concerns, examination and referral if needed.",
+            "ar": "الاستماع إلى شكواك والفحص والإحالة عند الحاجة."
+          }
+        },
+        {
+          "icon": "child_care",
+          "name": {
+            "tr": "Çocuk sağlığı ve aşı takibi",
+            "en": "Child health & vaccination",
+            "ar": "صحة الطفل ومتابعة التطعيم"
+          },
+          "description": {
+            "tr": "Büyüme kontrolü ve aşı takvimi takibi.",
+            "en": "Growth check-ups and vaccination schedule follow-up.",
+            "ar": "متابعة النمو وجدول التطعيمات."
+          }
+        },
+        {
+          "icon": "monitor_heart",
+          "name": {
+            "tr": "Kronik hastalık takibi",
+            "en": "Chronic condition follow-up",
+            "ar": "متابعة الأمراض المزمنة"
+          },
+          "description": {
+            "tr": "Tansiyon ve şeker gibi düzenli kontrol gerektiren durumlar için takip.",
+            "en": "Follow-up for conditions that need regular checks, such as blood pressure and diabetes.",
+            "ar": "متابعة الحالات التي تحتاج فحصًا دوريًا مثل الضغط والسكري."
           }
         },
         {
           "icon": "biotech",
           "name": {
-            "tr": "Laboratuvar",
-            "en": "Laboratory",
-            "ar": "المختبر"
+            "tr": "Laboratuvar ve tetkik",
+            "en": "Laboratory & tests",
+            "ar": "المختبر والفحوصات"
           },
           "description": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
+            "tr": "Kan ve idrar tetkiki için numune alma ve sonuç bilgilendirmesi.",
+            "en": "Sample collection for blood and urine tests, and result updates.",
+            "ar": "أخذ العينات لتحاليل الدم والبول وإبلاغك بالنتائج."
           }
         },
         {
-          "icon": "local_hospital",
+          "icon": "assignment",
           "name": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
+            "tr": "Sağlık raporu ve kontrol",
+            "en": "Health certificates & check-ups",
+            "ar": "التقارير الصحية والفحص الدوري"
           },
           "description": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
+            "tr": "Okul, iş ve sürücü kontrolü için sağlık raporu muayenesi.",
+            "en": "Examinations for school, work and driver health certificates.",
+            "ar": "فحوصات التقارير الصحية للمدرسة والعمل ورخصة القيادة."
           }
         },
         {
-          "icon": "medical_information",
+          "icon": "emergency",
           "name": {
-            "tr": "Uzaktan takip",
-            "en": "Remote follow-up",
-            "ar": "متابعة عن بُعد"
+            "tr": "Acil durumda yönlendirme",
+            "en": "Emergency guidance",
+            "ar": "التوجيه في الطوارئ"
           },
           "description": {
-            "tr": "Yeni randevu ve yönlendirme.",
-            "en": "New appointment and referral.",
-            "ar": "موعد جديد وإحالة."
-          }
-        },
-        {
-          "icon": "healing",
-          "name": {
-            "tr": "Tedavi",
-            "en": "Treatment",
-            "ar": "العلاج"
-          },
-          "description": {
-            "tr": "Kısa süreli tedavi planı.",
-            "en": "Short-term treatment plan.",
-            "ar": "خطة علاج قصيرة المدة."
-          }
-        },
-        {
-          "icon": "first_aid",
-          "name": {
-            "tr": "Acil yönlendirme",
-            "en": "Emergency referral",
-            "ar": "إحالة الطوارئ"
-          },
-          "description": {
-            "tr": "112 ile koordinasyon (demo metin).",
-            "en": "Coordination with 112 (demo text).",
-            "ar": "تنسيق مع ١١٢ (نص تجريبي)."
+            "tr": "Acil durumda önce 112'yi arayın; kurum yönlendirmesi demo metindir.",
+            "en": "In an emergency call 112 first; the clinic's guidance here is demo text.",
+            "ar": "في حالات الطوارئ اتصل بالرقم 112 أولًا؛ توجيه العيادة هنا نص تجريبي."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl ilerler?",
+          "en": "How it works",
+          "ar": "كيف تسير الزيارة؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Randevudan kontrole",
+          "en": "From appointment to follow-up",
+          "ar": "من الموعد إلى المتابعة"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Dört adımda poliklinik süreci.",
+          "en": "The clinic visit in four steps.",
+          "ar": "زيارة العيادة في أربع خطوات."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Registration",
-            "ar": "التسجيل"
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "الموعد"
           },
           "text": {
-            "tr": "Kimlik ve şikayet notu.",
-            "en": "Identity and complaint note.",
-            "ar": "ملاحظة الهوية والشكوى."
+            "tr": "Telefon, WhatsApp ya da formla gün ve saat seçin.",
+            "en": "Choose a day and time by phone, WhatsApp or the form.",
+            "ar": "اختر اليوم والوقت عبر الهاتف أو واتساب أو النموذج."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Muayene",
-            "en": "Examination",
-            "ar": "الفرز والفحص"
+            "tr": "Kayıt",
+            "en": "Registration",
+            "ar": "التسجيل"
           },
           "text": {
-            "tr": "Fizik muayene ve triyaj.",
-            "en": "Physical examination and triage.",
-            "ar": "فحص بدني وتوجيه."
+            "tr": "Kimlik ve şikâyet notu alınır.",
+            "en": "Your ID and a note on your complaint are recorded.",
+            "ar": "تُسجَّل هويتك وملاحظة عن شكواك."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Tetkik",
-            "en": "Test",
-            "ar": "الامتحان"
+            "tr": "Muayene",
+            "en": "Examination",
+            "ar": "الفحص"
           },
           "text": {
-            "tr": "Kan veya görüntüleme isteği.",
-            "en": "Blood or imaging request.",
-            "ar": "طلب دم أو تصوير."
+            "tr": "Hekim sizi dinler, muayene eder, gerekirse tetkik ister.",
+            "en": "The doctor listens, examines you and requests tests if needed.",
+            "ar": "يستمع الطبيب إليك ويفحصك ويطلب تحاليل عند الحاجة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tespit",
-            "en": "Diagnosis",
-            "ar": "التشخيص"
+            "tr": "Kontrol",
+            "en": "Follow-up",
+            "ar": "المتابعة"
           },
           "text": {
-            "tr": "Sonuç görüşü ve plan.",
-            "en": "Result discussion and plan.",
-            "ar": "مناقشة النتيجة والخطة."
+            "tr": "Sonuçlar görüşülür; plan ve kontrol tarihi belirlenir.",
+            "en": "Results are discussed; a plan and follow-up date are set.",
+            "ar": "تُناقَش النتائج وتُحدَّد الخطة وموعد المتابعة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Sağlık ekibi",
+          "en": "Health team",
+          "ar": "الفريق الصحي"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi karşılayanlar",
+          "en": "Who you will meet",
+          "ar": "من ستقابلهم"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Dr. Elif K.",
           "role": {
-            "tr": "Klinisyen",
-            "en": "Clinician",
-            "ar": "طبيب"
+            "tr": "Aile hekimi",
+            "en": "Family doctor",
+            "ar": "طبيبة أسرة"
           },
           "bio": {
-            "tr": "9 yıl kliniği.",
-            "en": "9 years of clinic.",
-            "ar": "٩ سنوات في العيادة."
+            "tr": "9 yıl aile hekimliği.",
+            "en": "9 years in family medicine.",
+            "ar": "9 سنوات في طب الأسرة."
           },
           "img": ""
         },
         {
           "name": "Arif S.",
           "role": {
-            "tr": "Laborant",
+            "tr": "Laboratuvar teknikeri",
             "en": "Lab technician",
-            "ar": "فني المختبر"
+            "ar": "فني مختبر"
           },
           "bio": {
-            "tr": "6 yıl numune.",
-            "en": "6 years of samples.",
-            "ar": "٦ سنوات في العينات."
+            "tr": "6 yıl numune alma ve laboratuvar.",
+            "en": "6 years in sampling and laboratory work.",
+            "ar": "6 سنوات في أخذ العينات والعمل المخبري."
           },
           "img": ""
         },
         {
           "name": "Merve T.",
           "role": {
-            "tr": "Sekreter",
+            "tr": "Tıbbi sekreter",
             "en": "Medical secretary",
-            "ar": "سكرتير"
+            "ar": "سكرتيرة طبية"
           },
           "bio": {
-            "tr": "4 yıl randevu.",
-            "en": "4 years of appointments.",
-            "ar": "٤ سنوات في المواعيد."
+            "tr": "4 yıl randevu ve hasta kabul.",
+            "en": "4 years in appointments and patient reception.",
+            "ar": "4 سنوات في المواعيد واستقبال المرضى."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Hasta görüşleri",
+          "en": "Patient feedback",
+          "ar": "آراء المرضى"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Hastalarımız ne diyor?",
+          "en": "What our patients say",
+          "ar": "ماذا يقول مرضانا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2021,44 +2032,44 @@
           "role": {
             "tr": "Hasta",
             "en": "Patient",
-            "ar": "مرضى"
+            "ar": "مريضة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Randevu dakik; açıklama net.",
-            "en": "Appointment on time; clear explanation.",
-            "ar": "موعد في الوقت؛ الشرح واضح."
+            "tr": "Randevu saatinde muayene oldum; hekim şikâyetimi sakin sakin dinledi.",
+            "en": "I was seen at my appointment time; the doctor listened to me calmly.",
+            "ar": "تمّ فحصي في موعدي، واستمع الطبيب إلى شكواي بهدوء."
           }
         },
         {
           "name": "Osman D.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Hasta",
+            "en": "Patient",
+            "ar": "مريض"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sonuç süresi bilgilendirildi.",
-            "en": "Result time was communicated.",
-            "ar": "تم إخطار وقت النتيجة."
+            "tr": "Tahlil sonucunun ne zaman çıkacağı baştan söylendi.",
+            "en": "I was told from the start when my test results would be ready.",
+            "ar": "أُخبرت منذ البداية بموعد ظهور نتيجة التحليل."
           }
         },
         {
-          "name": "Y. Karaca.",
+          "name": "Y. Karaca",
           "role": {
-            "tr": "Hasta yakını",
-            "en": "Patient’s relative",
-            "ar": "مزور المريضة"
+            "tr": "Veli",
+            "en": "Parent",
+            "ar": "ولي أمر"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Kayanım açık; süreç şeffaf.",
-            "en": "The waiting is clear; the process is transparent.",
-            "ar": "الانتظار واضح؛ العملية شفافة."
+            "tr": "Çocuğumun kontrolü için geldik; açıklamalar anlaşılırdı.",
+            "en": "We came for my child's check-up; the explanations were easy to follow.",
+            "ar": "جئنا لفحص طفلي، وكانت الشروحات واضحة ومفهومة."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "4px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Poliklinikte neler var?",
+          "en": "Inside the clinic",
+          "ar": "ماذا في العيادة؟"
         },
         "title": {
           "tr": "Nasıl yardımcı olabiliriz?",
           "en": "How can we help?",
-          "ar": "كيف يمكننا المساعدة؟"
+          "ar": "كيف يمكننا مساعدتك؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,33 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Poliklinik",
-            "en": "Polyclinic",
-            "ar": "العيادات"
+            "tr": "Aile hekimi muayenesi",
+            "en": "Family doctor check-up",
+            "ar": "فحص طبيب الأسرة"
           },
           "metin": {
-            "tr": "Randevu ve triyaj akışı.",
-            "en": "Appointment and triage flow.",
-            "ar": "مسار المواعيد والتوجيه."
-          },
-          "img": "klinik-muayene-koltugu.webp",
-          "alt": {
-            "tr": "Temsilî görsel",
-            "en": "Representative image",
-            "ar": "صورة تمثيلية"
-          },
-          "url": "hizmetler"
-        },
-        {
-          "baslik": {
-            "tr": "Laboratuvar",
-            "en": "Laboratory",
-            "ar": "المختبر"
-          },
-          "metin": {
-            "tr": "Numune ve sonuç takibi.",
-            "en": "Sample and result tracking.",
-            "ar": "تتبع العينة والنتيجة."
+            "tr": "Şikâyetinizin dinlenmesi, muayene ve gerekirse yönlendirme.",
+            "en": "Listening to your concerns, examination and referral if needed.",
+            "ar": "الاستماع إلى شكواك والفحص والإحالة عند الحاجة."
           },
           "img": "klinik-tedavi-1.webp",
           "alt": {
@@ -2164,16 +2156,35 @@
         },
         {
           "baslik": {
-            "tr": "Radyoloji",
-            "en": "Radiology",
-            "ar": "الأشعة"
+            "tr": "Çocuk sağlığı ve aşı takibi",
+            "en": "Child health & vaccination",
+            "ar": "صحة الطفل ومتابعة التطعيم"
           },
           "metin": {
-            "tr": "Görüntüleme randevusu.",
-            "en": "Imaging appointment.",
-            "ar": "موعد تصوير."
+            "tr": "Büyüme kontrolü ve aşı takvimi takibi.",
+            "en": "Growth check-ups and vaccination schedule follow-up.",
+            "ar": "متابعة النمو وجدول التطعيمات."
           },
           "img": "klinik-bekleme.webp",
+          "alt": {
+            "tr": "Temsilî görsel",
+            "en": "Representative image",
+            "ar": "صورة تمثيلية"
+          },
+          "url": "hizmetler"
+        },
+        {
+          "baslik": {
+            "tr": "Kronik hastalık takibi",
+            "en": "Chronic condition follow-up",
+            "ar": "متابعة الأمراض المزمنة"
+          },
+          "metin": {
+            "tr": "Tansiyon ve şeker gibi düzenli kontrol gerektiren durumlar için takip.",
+            "en": "Follow-up for conditions that need regular checks, such as blood pressure and diabetes.",
+            "ar": "متابعة الحالات التي تحتاج فحصًا دوريًا مثل الضغط والسكري."
+          },
+          "img": "klinik-alet-yakin.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "4px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız sağlık kuruluşları",
+          "en": "Health organisations we work with",
+          "ar": "جهات صحية نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional organisation names; they do not belong to a real organisation.",
+          "ar": "أسماء جهات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2252,16 +2263,16 @@
           "name": "Demo Laboratuvar"
         },
         {
-          "name": "Demo Ekipman"
-        },
-        {
-          "name": "Demo Dernek"
-        },
-        {
           "name": "Demo Hastane"
         },
         {
-          "name": "Demo Dernek"
+          "name": "Demo Aile Sağlığı Derneği"
+        },
+        {
+          "name": "Demo Sağlık Ocağı"
+        },
+        {
+          "name": "Demo Diş Kliniği"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Randevu almadan gelebilir miyim?",
+            "en": "Can I come without an appointment?",
+            "ar": "هل يمكنني الحضور دون موعد؟"
+          },
+          "answer": {
+            "tr": "Randevulu hastalar önceliklidir; müsaitliğe göre kabul edilir. Önce aramanızı öneririz.",
+            "en": "Patients with appointments are seen first; walk-ins are accepted as availability allows. We suggest calling first.",
+            "ar": "أصحاب المواعيد لهم الأولوية، ويُقبَل الآخرون حسب التوفر. نوصي بالاتصال أولًا."
+          },
           "soru": {
-            "tr": "Tahlil sonucu ne kadar?",
-            "en": "How long for the test result?",
-            "ar": "كم تستغرق النتيجة?"
+            "tr": "Randevu almadan gelebilir miyim?",
+            "en": "Can I come without an appointment?",
+            "ar": "هل يمكنني الحضور دون موعد؟"
           },
           "cevap": {
-            "tr": "Test tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by test type; this demo text gives no example.",
-            "ar": "تتغير حسب نوع الفحص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Randevulu hastalar önceliklidir; müsaitliğe göre kabul edilir. Önce aramanızı öneririz.",
+            "en": "Patients with appointments are seen first; walk-ins are accepted as availability allows. We suggest calling first.",
+            "ar": "أصحاب المواعيد لهم الأولوية، ويُقبَل الآخرون حسب التوفر. نوصي بالاتصال أولًا."
           }
         },
         {
+          "question": {
+            "tr": "Tahlil sonuçları ne zaman çıkar?",
+            "en": "When are test results ready?",
+            "ar": "متى تظهر نتائج التحاليل؟"
+          },
+          "answer": {
+            "tr": "Teste göre değişir; numune alınırken tahmini süre söylenir.",
+            "en": "It depends on the test; an estimated time is given when the sample is taken.",
+            "ar": "يختلف حسب الفحص، ويُذكر الوقت التقريبي عند أخذ العينة."
+          },
           "soru": {
-            "tr": "Acil durum için neredeyim?",
-            "en": "Where should I go in an emergency?",
-            "ar": "أين أذهب في الطوارئ?"
+            "tr": "Tahlil sonuçları ne zaman çıkar?",
+            "en": "When are test results ready?",
+            "ar": "متى تظهر نتائج التحاليل؟"
           },
           "cevap": {
-            "tr": "Önce 112; kurum yönlendirmesi demo metindir.",
-            "en": "First 112; the institution’s referral is a demo text.",
-            "ar": "١١٢ أولاً؛ إحالة المؤسسة نص تجريبي."
+            "tr": "Teste göre değişir; numune alınırken tahmini süre söylenir.",
+            "en": "It depends on the test; an estimated time is given when the sample is taken.",
+            "ar": "يختلف حسب الفحص، ويُذكر الوقت التقريبي عند أخذ العينة."
           }
         },
         {
+          "question": {
+            "tr": "Acil durumda ne yapmalıyım?",
+            "en": "What should I do in an emergency?",
+            "ar": "ماذا أفعل في حالة الطوارئ؟"
+          },
+          "answer": {
+            "tr": "Önce 112'yi arayın. Poliklinik, acil servisin yerine geçmez.",
+            "en": "Call 112 first. The clinic is not a substitute for an emergency room.",
+            "ar": "اتصل بالرقم 112 أولًا. العيادة ليست بديلًا عن قسم الطوارئ."
+          },
+          "soru": {
+            "tr": "Acil durumda ne yapmalıyım?",
+            "en": "What should I do in an emergency?",
+            "ar": "ماذا أفعل في حالة الطوارئ؟"
+          },
+          "cevap": {
+            "tr": "Önce 112'yi arayın. Poliklinik, acil servisin yerine geçmez.",
+            "en": "Call 112 first. The clinic is not a substitute for an emergency room.",
+            "ar": "اتصل بالرقم 112 أولًا. العيادة ليست بديلًا عن قسم الطوارئ."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır. Bilgiler tıbbi tavsiye değildir.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional. Nothing here is medical advice.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية. المحتوى ليس نصيحة طبية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
-          },
-          "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır. Bilgiler tıbbi tavsiye değildir.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional. Nothing here is medical advice.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية. المحتوى ليس نصيحة طبية."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request an appointment",
+          "ar": "اطلب موعدًا"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz. Acil durumda 112'yi arayın.",
+          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data. In an emergency call 112.",
+          "ar": "اترك بياناتك؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات. في الطوارئ اتصل بالرقم 112."
         },
         "panelTitle": {
           "tr": "Aile Poliklinik",
@@ -2421,7 +2472,7 @@
           "ar": "Aile Poliklinik"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2435,8 +2486,8 @@
         "email": "randevu@aile.example",
         "hours": {
           "tr": "Pzt–Cum 08:30 – 17:30",
-          "en": "Mon–Wed 08:30 – 17:30",
-          "ar": "الاثنين–الأربعاء 08:30 – 17:30"
+          "en": "Mon–Fri 08:30 – 17:30",
+          "ar": "الاثنين–الجمعة 08:30 – 17:30"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Appointment form",
+          "ar": "نموذج حجز موعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Aile hekimi muayenesi",
+              "en": "Family doctor check-up",
+              "ar": "فحص طبيب الأسرة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Çocuk sağlığı",
+              "en": "Child health",
+              "ar": "صحة الطفل"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Laboratuvar ve tetkik",
+              "en": "Laboratory and tests",
+              "ar": "المختبر والفحوصات"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Aile Poliklinik"
         },
         "description": {
-          "tr": "Aile Poliklinik, muayene ve test sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Aile poliklinik offers examination and tests. Images are representative and text is fictional.",
-          "ar": "يقدم عيادة العائلة فحص واختبارات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Aile Poliklinik; aile hekimliği muayenesi, çocuk sağlığı, kronik hastalık takibi ve laboratuvar yönlendirmesi sunan kurgusal bir özel polikliniktir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Aile Poliklinik is a fictional private clinic offering family-medicine check-ups, child health, chronic-condition follow-up and lab referrals. Images are representative and text is fictional.",
+          "ar": "Aile Poliklinik عيادة خاصة افتراضية تقدّم فحوصات طب الأسرة وصحة الطفل ومتابعة الأمراض المزمنة والإحالة إلى المختبر. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Tek kat",
-          "en": "One floor",
-          "ar": "طابق واحد"
+          "tr": "Tek binada",
+          "en": "Under one roof",
+          "ar": "تحت سقف واحد"
         },
         "spot2": {
-          "tr": "Kayıttan çıkanma aynı binada.",
-          "en": "From registration through departure in the same building.",
-          "ar": "من التسجيل إلى الخروج في نفس المبنى."
+          "tr": "Kayıttan kontrole tüm adımlar aynı binada.",
+          "en": "From registration to follow-up, every step is in the same building.",
+          "ar": "من التسجيل إلى المتابعة، كل الخطوات في المبنى نفسه."
         },
-        "icon2": "verified",
+        "icon2": "apartment",
         "name3": {
-          "tr": "Kayıt defteri",
-          "en": "Record book",
-          "ar": "دفتر السجلات"
+          "tr": "Hasta mahremiyeti",
+          "en": "Patient privacy",
+          "ar": "خصوصية المريض"
         },
         "spot3": {
-          "tr": "Her süreç kayıt altında; hasta onayıyla.",
-          "en": "Every process is under record; with patient consent.",
-          "ar": "كل العملية تحت السجل؛ بموافقة المريض."
+          "tr": "Kayıtlar gizli tutulur; yalnızca hasta onayıyla paylaşılır.",
+          "en": "Records are kept confidential and shared only with the patient's consent.",
+          "ar": "تُحفظ السجلات بسرية ولا تُشارك إلا بموافقة المريض."
         },
-        "icon3": "schedule",
-        "img": "klinik-hekim-eli.webp",
+        "icon3": "lock",
+        "img": "klinik-harita-bina.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2730,8 +2782,8 @@
         },
         "description": {
           "tr": "Pzt–Cum 08:30 – 17:30",
-          "en": "Mon–Wed 08:30 – 17:30",
-          "ar": "الاثنين–الأربعاء 08:30 – 17:30"
+          "en": "Mon–Fri 08:30 – 17:30",
+          "ar": "الاثنين–الجمعة 08:30 – 17:30"
         },
         "phone": "+90 342 025 01 01",
         "whatsapp": "903420250101",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cum 08:30 – 17:30",
+          "en": "Mon–Fri 08:30 – 17:30",
+          "ar": "الاثنين–الجمعة 08:30 – 17:30"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2849,17 +2901,17 @@
         "title": {
           "tr": "Önce dinliyoruz",
           "en": "We listen first",
-          "ar": "نصغي أولا"
+          "ar": "نصغي أولًا"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Randevu talebinizi bırakın; iki iş günü içinde dönüş yaparız. Acil durumda 112'yi arayın. Bu demo sitede veri saklanmaz.",
+          "en": "Leave your appointment request; we reply within two business days. In an emergency call 112. No data is stored on this demo site.",
+          "ar": "اترك طلب الموعد؛ نردّ خلال يومي عمل. في الطوارئ اتصل بالرقم 112. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu iste",
+          "en": "Request an appointment",
+          "ar": "اطلب موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
@@ -2882,8 +2934,8 @@
         },
         "hours": {
           "tr": "Pzt–Cum 08:30 – 17:30",
-          "en": "Mon–Wed 08:30 – 17:30",
-          "ar": "الاثنين–الأربعاء 08:30 – 17:30"
+          "en": "Mon–Fri 08:30 – 17:30",
+          "ar": "الاثنين–الجمعة 08:30 – 17:30"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Aile Poliklinik ile iletişime geçmek istiyorum.",
-          "en": "Hello, I would like to get in touch with Aile Poliklinik.",
-          "ar": "مرحبًا، أودّ التواصل مع Aile Poliklinik."
+          "tr": "Merhaba, randevu almak için Aile Poliklinik ile iletişime geçmek istiyorum.",
+          "en": "Hello, I would like to book an appointment at Aile Poliklinik.",
+          "ar": "مرحبًا، أودّ حجز موعد في Aile Poliklinik."
         },
         "img": "",
         "alt": {

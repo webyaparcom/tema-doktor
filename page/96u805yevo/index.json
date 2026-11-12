@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Randevudan sonuç takibine.",
-    "en": "From appointment to result tracking.",
-    "ar": "من الموعد إلى تتبع النتيجة."
+    "tr": "Randevudan kontrole, aynı çatı altında.",
+    "en": "From appointment to follow-up, under one roof.",
+    "ar": "من الموعد إلى المتابعة، تحت سقف واحد."
   },
   "keyword": {
-    "tr": "Sağlık",
-    "en": "The health",
-    "ar": "الصحة"
+    "tr": "Poliklinik",
+    "en": "The clinic",
+    "ar": "العيادة"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:33.277Z",
-  "update": "2026-11-05T23:44:31.430Z"
+  "update": "2026-11-12T07:35:23.380Z"
 }
